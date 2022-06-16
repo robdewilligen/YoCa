@@ -200,3 +200,21 @@ img {
 .btn:hover {
     transform: scale(0.98);
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+    
+    btn {
+        background-color: purple;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: green;
+    }
+    btn {
+        background-color: cyan;
+    }
+}
